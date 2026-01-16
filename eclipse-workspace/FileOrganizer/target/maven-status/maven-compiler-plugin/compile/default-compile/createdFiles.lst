@@ -1,0 +1,12 @@
+com\fileorganizer\controllers\SettingsController.class
+com\fileorganizer\services\DuplicateFinder.class
+com\fileorganizer\controllers\MainController.class
+com\fileorganizer\Main.class
+com\fileorganizer\models\FileInfo.class
+com\fileorganizer\models\FileItem.class
+com\fileorganizer\services\ReportGenerator.class
+com\fileorganizer\services\FileScanner.class
+com\fileorganizer\utils\FileUtils.class
+com\fileorganizer\models\Report.class
+com\fileorganizer\controllers\ReportController.class
+com\fileorganizer\services\FileOrganizer.class

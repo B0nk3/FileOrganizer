@@ -1,0 +1,190 @@
+/* ====== Base Theme ====== */
+.root-pane {
+    -fx-background-color: #f4f6f8;
+    -fx-font-family: "Segoe UI", "Roboto", "Helvetica", sans-serif;
+    -fx-font-size: 14px;
+}
+
+/* ====== Sidebar ====== */
+.sidebar {
+    -fx-background-color: #2c3e50; /* Dark Blue */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 10, 0, 0, 0);
+}
+
+.sidebar-title {
+    -fx-text-fill: white;
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+}
+
+.sidebar-subtitle {
+    -fx-text-fill: #bdc3c7;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-letter-spacing: 2px;
+}
+
+.separator .line {
+    -fx-border-color: #34495e;
+    -fx-border-width: 1px;
+}
+
+/* ====== Sidebar Labels ====== */
+.label {
+    -fx-text-fill: #2c3e50;
+}
+.sidebar .label {
+    -fx-text-fill: #95a5a6;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 0 5 0;
+}
+
+/* ====== Menu Buttons ====== */
+.menu-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ecf0f1;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+    -fx-padding: 10 15;
+    -fx-background-radius: 5;
+    -fx-alignment: CENTER_LEFT;
+}
+
+.menu-button:hover {
+    -fx-background-color: #34495e;
+    -fx-text-fill: white;
+}
+
+.menu-button:pressed {
+    -fx-background-color: #2980b9;
+}
+
+.action-button-small {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-background-radius: 4;
+}
+.action-button-small:hover { -fx-background-color: #2980b9; }
+
+/* ====== Stat Cards ====== */
+.stat-card {
+    -fx-background-color: white;
+    -fx-background-radius: 8;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 2);
+    -fx-padding: 10 20;
+    -fx-min-width: 180px;
+}
+
+.stat-value {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+.stat-title {
+    -fx-font-size: 12px;
+    -fx-text-fill: #7f8c8d;
+}
+
+/* ====== Search Field ====== */
+.search-field {
+    -fx-background-color: white;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: #bdc3c7;
+    -fx-padding: 8 15;
+}
+.search-field:focused {
+    -fx-border-color: #3498db;
+    -fx-effect: dropshadow(three-pass-box, rgba(52, 152, 219, 0.3), 5, 0, 0, 0);
+}
+
+/* ====== TabPane & Tables ====== */
+.floating-tabs .tab-header-area .tab-header-background {
+    -fx-background-color: transparent;
+}
+
+.floating-tabs .tab {
+    -fx-background-color: transparent;
+    -fx-text-fill: #7f8c8d;
+    -fx-font-weight: bold;
+    -fx-border-color: transparent transparent transparent transparent;
+}
+
+.floating-tabs .tab:selected {
+    -fx-text-fill: #3498db;
+    -fx-border-color: transparent transparent #3498db transparent;
+    -fx-border-width: 3px;
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-background-radius: 8;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.05), 5, 0, 0, 2);
+    -fx-border-color: transparent;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: white;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #ecf0f1;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-size: 40px;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #7f8c8d;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell {
+    -fx-background-color: white;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #f7f9fa;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #fdfdfd;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #ebf5fb;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #d6eaf8;
+    -fx-text-fill: #2c3e50;
+}
+
+/* ====== ScrollBars ====== */
+.table-view .scroll-bar:vertical,
+.table-view .scroll-bar:vertical .track,
+.table-view .scroll-bar:vertical .track-background,
+.table-view .scroll-bar:horizontal,
+.table-view .scroll-bar:horizontal .track,
+.table-view .scroll-bar:horizontal .track-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .scroll-bar:vertical .thumb,
+.table-view .scroll-bar:horizontal .thumb {
+    -fx-background-color: #bdc3c7;
+    -fx-background-radius: 10;
+}
+
+/* ====== Titled Pane (Custom Rule) ====== */
+.titled-pane {
+    -fx-text-fill: white;
+}
+.titled-pane > .title {
+    -fx-background-color: #34495e;
+    -fx-background-radius: 5;
+}
+.titled-pane > .content {
+    -fx-background-color: #2c3e50;
+    -fx-border-color: #34495e;
+}

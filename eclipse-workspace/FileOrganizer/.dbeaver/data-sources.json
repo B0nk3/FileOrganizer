@@ -1,0 +1,34 @@
+{
+	"folders": {},
+	"connections": {
+		"sqlite_jdbc-19b6fb396ed-1a398d2bfebe540f": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "file_history.db",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Users\\Alex\\eclipse-workspace\\FileOrganizer\\file_history.db",
+				"url": "jdbc:sqlite:C:\\Users\\Alex\\eclipse-workspace\\FileOrganizer\\file_history.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
